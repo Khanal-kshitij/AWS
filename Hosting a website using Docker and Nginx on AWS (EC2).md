@@ -4,9 +4,9 @@
 - Login to the OS by writing "ubuntu"
 - After that I have to install docker in my OS .<br/>
 - Now install Docker using following command:
-```bash
+
 curl -sL https://github.com/ShubhamTatvamasi/docker-install/raw/master/docker-install.sh | bash
-```
+
 - Type following command to avoid using ``sudo`` always (right that's irritating)
 ```bash
 newgrp docker
