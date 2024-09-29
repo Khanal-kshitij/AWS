@@ -20,11 +20,11 @@
      - **HTTP** (port 80)
 
 6. **Key Pair**:
-   - Create a new key pair and download the `.ppk` file.
+   - Create a new key pair and download the .ppk file.
 
 7. **Launch the Instance**.
 
----
+
 
 ## Step 2: Connect to EC2 Using PuTTY
 
@@ -32,24 +32,24 @@
 
 2. **Enter the Public IP of EC2**:
    - In **Host Name (or IP address)**, enter your instance's **public IP**.
-   - Example: `eg. (13.45.589.25)`
+   - Example: eg. (13.45.589.25)
 
 3. **Load PPK File**:
    - In the left sidebar, navigate to **Connection > SSH > Auth**.
-   - Click **Browse** and select the `.ppk` file.
+   - Click **Browse** and select the .ppk file.
 
 4. **Open the Connection**:
-   - Click **Open** and use `ubuntu` as the username when prompted.
+   - Click **Open** and use ubuntu as the username when prompted.
 
 ---
 
 ## Step 3: Install Apache2 on the EC2 Instance
 
 Update the package list and install Apache2:
-```bash
+bash
 sudo apt update
 sudo apt install apache2 -y
-```
+
 
 ## Step 4: Delete Default index.html and Create a New One
 1. Navigate to the Apache directory:
@@ -60,11 +60,11 @@ sudo apt install apache2 -y
    sudo vi index.html
 4. Add your HTML code:
    - Example:
-   ```
+   
      <html>
-       Hi, I am Himanshu.
+       Hi,
      </html>
-   ```
+  
 5. Save and exit.
 
 ## Step 5: Access Your Website
@@ -74,4 +74,4 @@ sudo apt install apache2 -y
 
    Enter your EC2 Public IP in the browser:
    eg. (13.45.589.25)
-3. You should see your custom HTML page! 🎉
+3. You should see your custom HTML page
