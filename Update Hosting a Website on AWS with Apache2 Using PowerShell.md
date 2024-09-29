@@ -2,6 +2,7 @@
  ## (These are the steps after launching instance and downloading .pem passkey)
 
 **Step 1: Connect to EC2 Instance Using PowerShell**
+
      Open PowerShell in Windows.
      Navigate to your PEM file: First, ensure you’re in the directory where your .pem file is located. Use cd to change directories:
      cd path\to\your-pem-file
