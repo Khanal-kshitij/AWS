@@ -6,7 +6,7 @@
   
 
 2. **Launch EC2 Instance**:
-   - Navigate to **EC2** and click **Launch Instance**.
+    Navigate to **EC2** and click **Launch Instance**.
 
 3. **Choose an AMI (Amazon Machine Image)**:
    - Select **Ubuntu Server**
