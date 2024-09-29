@@ -11,8 +11,10 @@ ssh -i "your_key.pem" ec2-user@your_instance_public_IP
 Replace path_to_your_key.pem with the location of your private key. Replace your_instance_public_IP with the public IP of your EC2 instance.
 
 Step 2: Update the Package List on Your EC2 Instance
+
 Run the following command after logging in to update your packages:
-sudo apt update
+
+(sudo apt update)
 
 Step 3: Install Apache2
 To install the Apache2 web server:
