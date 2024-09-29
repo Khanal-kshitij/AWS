@@ -7,7 +7,7 @@
 
  https://github.com/ShubhamTatvamasi/docker-install/raw/master/docker-install.sh
 
-- Type following command to avoid using ``sudo`` always (right that's irritating)
+- Type following command to avoid using sudo always 
 ```bash
 newgrp docker
 ```
