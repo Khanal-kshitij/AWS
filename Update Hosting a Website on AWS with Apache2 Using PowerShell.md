@@ -18,11 +18,14 @@ Run the following command after logging in to update your packages:
 sudo apt update
 
 **Step 3: Install Apache2**
-To install the Apache2 web server:
-sudo apt install apache2 -y
-Step 4: Delete the Default index.html and Create Your Own
-Navigate to the Apache web directory:
-cd /var/www/html
+
+ To install the Apache2 web server:
+ sudo apt install apache2 -y
+
+**Step 4: Delete the Default index.html and Create Your Own**
+
+ Navigate to the Apache web directory:
+ cd /var/www/html
 
 Delete the default index.html file:
 sudo rm index.html
