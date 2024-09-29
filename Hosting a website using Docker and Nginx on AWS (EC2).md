@@ -8,64 +8,63 @@
  https://github.com/ShubhamTatvamasi/docker-install/raw/master/docker-install.sh
 
 - Type following command to avoid using sudo always 
-```bash
+
 newgrp docker
-```
+
 - Then type (This will provides a list of the Docker containers on your machine)
-```bash
+
 docker ps
-```
+
 - You can check your docker version by typing:
-```bash
+
 docker --version
-```
-- Now, to use ``Nginx`` in our container use the following commands:
-```bash
+
+- Now, to use Nginx in our container use the following commands:
+
 docker pull nginx
-```
-```bash
+
+
 docker run --name docker-nginx -p 80:80 nginx
-```
+
 ### Now you can type your instance's IP and see Nginx default web page.  
 - Use following command to stop the container from running:
-```bash
+
 ctrl + c
-```
+
 - Use following command to reveals that the Docker container has been exited:
-```bash
+
 docker ps -a
-```
+
 - Use following command to see container's ID
-```bash
+
 docker run --name docker-nginx -p 80:80 -d nginx
-```
+
 - Use following command to see new information about container:
-```bash
+
 docker ps
-```
+
 - Use following command to stop the container:
-```bash
+
 docker stop docker-nginx
-```
+
 - Then remove default Nginx page and create new custom html file using following commands:
-```bash
+
 docker rm docker-nginx
-```
-```bash
+
 mkdir -p ~/docker-nginx/html
-```
+
 Now navigate to file created:
-```bash
+
 cd ~/docker-nginx/html
-```
-- Now create a ``index.html`` and write a html code on ``vim`` code editor:
-```bash
-vi index.html
-```
+
+- Now create a index.html and write a html code on code editor:
+
+index.html
+
 - Now write your code and save the file.
 Then connect the file to instance:
-```bash
+
 docker run --name docker-nginx -p 80:80 -d -v ~/docker-nginx/html:/usr/share/nginx/html nginx
-```
-### Now go and check the link...<br><br>
-### Great! You did it.🥳🎉
+
+### Now go and check the link...
+### Great! You did it.
