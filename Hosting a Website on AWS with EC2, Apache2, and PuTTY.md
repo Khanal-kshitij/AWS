@@ -3,7 +3,7 @@
 ## Step 1: Launch a Linux EC2 Instance (Ubuntu)
 
 1. **Login to AWS Console**:
-   - Go to [AWS Console](https://aws.amazon.com/console/) and log in.
+  
 
 2. **Launch EC2 Instance**:
    - Navigate to **EC2** and click **Launch Instance**.
