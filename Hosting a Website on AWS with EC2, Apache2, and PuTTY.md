@@ -60,8 +60,7 @@ sudo apt install apache2 -y
    sudo vi index.html
 4. Add your HTML code:
    - Example:
-   
-     <html>
+    <html>
        Hi,
      </html>
   
