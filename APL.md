@@ -1,6 +1,7 @@
 # Creating an Application load balancer in AWS
 1.create vpc '''10.0.0.0/16'''
 
+![Screenshot (110)](https://github.com/user-attachments/assets/30f2dcdf-9e56-4015-be5d-11dd6ad19b56)
 
 
 2.THEN CREATE INTERNET GATEWAY AND CONNECT VPC TO IT AND THEN CREATE VGW AND CONNECT(ATTACH) VPC TO IT. NOW GO TO ROUTE TABLES AND CREATE 2 ROUTE 
